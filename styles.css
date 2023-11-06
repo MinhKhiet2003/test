@@ -1,0 +1,32 @@
+body, html {
+    height: 100%;
+    margin: 0;
+    font-family: Arial, sans-serif;
+}
+
+.container {
+    display: flex;
+    height: 100%;
+}
+
+.left-side, .right-side {
+    flex: 1;
+    padding: 20px;
+    box-sizing: border-box;
+}
+
+.left-side {
+    background-color: #f0f0f0;
+    font-size: larger;
+}
+
+.right-side {
+    background-color: #e0e0e0;
+    overflow-y: auto; /* Cho phép scroll khi nội dung vượt quá kích thước */
+}
+
+.scrollable-content {
+    padding: 10px;
+}
+
+/* Phần còn lại của CSS không thay đổi */
